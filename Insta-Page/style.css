@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    outline: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: auto;
+}
+.form_div{
+    display: flex;
+    flex-direction: column;
+}
+.form_div form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 3vh 2vw;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+
+}
+.form_div form{
+    width: 350px;
+    margin: 20px 0;
+}
+.input{
+    width: 90%;
+    padding: .6rem;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+    height: 20px;
+}
+.login_btn{
+    width: 97%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: rgba(1,183,255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+#or{
+    margin: 20px 0;
+}
+#or:before,#or:after{
+    content: '----------------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+.fb_login{
+    font-weight: 700;
+    font-size: 95%;
+    color: rgba(85, 0, 255);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.sign_up{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px;
+    margin: 10px;
+    width: 344px;
+}
+.get_app{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.store{
+    display: flex;
+    align-items: center;
+}
+#play{
+    width: 182px;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+#microsoft{
+    width: 182px;
+    border-radius: 8px;
+    padding-left: 10px;
+
+}
+.insta_logo{
+    width: 387px;
+
+}
+
+
+
+
